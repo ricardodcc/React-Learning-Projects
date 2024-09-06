@@ -1,0 +1,129 @@
+/* START FONTS IMPORT */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet');
+
+/* END FONTS IMPORT */
+
+/* START RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	text-wrap: balance;
+}
+
+body {
+	height: 100vh;
+	background-color: #484949;
+}
+
+/* END RESET */
+
+/* START GENERAL STYLES */
+
+.wrapper_img {
+	width: 100%;
+	height: auto;
+}
+
+.wrapper_flex {
+	display: flex;
+}
+
+.no-list-style {
+	list-style: none;
+}
+
+.container {
+	padding: 0 1.75rem;
+}
+
+/* END GENERAL STYLES */
+
+/* NAVBAR STYLE START */
+
+nav {
+	justify-content: space-between;
+}
+
+nav > div,
+nav {
+	align-items: center;
+}
+
+.nav__logo {
+	width: 70px;
+}
+
+.nav__logo + h3 {
+	font-size: 1.5rem;
+	margin-left: -1rem;
+	font-weight: 700;
+	color: #61dafb;
+}
+
+/* NAVBAR STYLE END */
+
+/* HEADER STYLE END */
+
+header {
+	background-color: #363636;
+	color: #fff;
+	padding-block: 0.5rem;
+}
+/* HEADER STYLE START */
+
+/* MAIN STYLE START */
+
+.main {
+	padding-top: 3.5rem;
+	padding-bottom: 1rem;
+}
+
+main > h1 {
+	font-weight: bold;
+	font-size: 2.5rem;
+	letter-spacing: -0.05em;
+}
+
+.main__list {
+	padding: 1rem 0 0 1.25rem;
+	font-weight: 400;
+	font-size: 1rem;
+	max-width: 390px;
+}
+
+.main__list > li {
+	padding-block: 0.4rem;
+}
+
+.main__list li::marker {
+	color: #2bcdfa;
+	font-size: 1.4rem;
+}
+
+/* MAIN STYLE END */
+
+/* FOOTER STYLE START */
+
+footer {
+	text-align: right;
+	padding-bottom: 0.5rem !important;
+}
+
+/* FOOTER STYLE END */
+
+footer,
+main {
+	color: #fff;
+}
